@@ -1,0 +1,78 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .navbar {
+      width: 400px;
+      background-color: #0f0f0f;
+      color: #fff;
+      padding: 15px;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+    
+    /* Remove dots in the links */
+   .navbar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    /* Style for uppercase navigation links */
+    .navbar a {
+      text-transform: uppercase;
+      color: #f8faf6; 
+      text-decoration: none;
+      display: block;
+      padding: 10px 0;
+    }
+    
+    #profile-image {
+      border-radius: 50%; /* Make the image circular */
+      margin-bottom: 10px;
+    }
+
+    .content {
+      padding: 20px;
+      /* overflow: hidden; */
+      overflow-y: auto; /* Enable vertical scrolling */
+      height: 100%;
+      position: relative;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      background-color: #f4f4f4;
+    }
+
+    .section {
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icon {
+      margin-right: 10px;
+      color: #333;
+    }
+    /* Footer styles */
+    footer {
+      background-color: #0f0f0f;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
